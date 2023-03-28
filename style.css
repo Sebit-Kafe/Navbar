@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+}
+.Navbar{
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+nav{
+    color: white;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 32px;
+    font-size: 18px;
+}
+.left{
+    float: left;
+}
+button{
+    color: green;
+    border-color: green;
+    border-radius: 4px;
+    padding: 10px;
+    
+}
+::placeholder{
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px 20px;
+}
+ nav ul li  .two .three{
+    color: rgb(172, 176, 180);
+}
+#dropdown{
+    color: aliceblue;
+    border-color: black;
+}
+hr{
+    color: aliceblue;
+}
+
+
+.button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+  color: white;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(239, 238, 238, 0.8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+select option{
+    color: aliceblue;
+}
